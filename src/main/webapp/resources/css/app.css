@@ -1,0 +1,28 @@
+.search {
+    cursor: pointer;
+}
+
+.divider {
+    height: 1px;
+    width:100%;
+    display:block; /* for use on default inline elements like span */
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+.ui-autocomplete { z-index:1000000000 !important;}
+
+.ajax-modal {
+    display: none;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background: url("../images/ajax-loading.gif") center center no-repeat rgba(51, 51, 51, 0.1);
+    z-index: 2500;
+}
+div.ajaxloading.ajax-modal {
+    display: block;
+}
